@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 95%;
+    width: 1200px;
     margin: 0 auto;
     padding-top: 50px;
     min-width: 320px;
@@ -47,12 +47,18 @@ img {
 }
 
 @media screen and (max-width: 992px) {
+    .container {
+        width: 95%
+    }
+
     .dessert-cards {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (max-width: 768px) {
+
+
     .dessert-cards {
         grid-template-columns: 1fr;
         margin-bottom: 0;
